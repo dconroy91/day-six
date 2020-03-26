@@ -51,13 +51,15 @@ function divide(n1, n2) {
 divide(100, 25)
 
 function sandwich(bread, name, isToasted) {
+    
     var madeSandwich = ` Ordered ${name} on ${bread}`
-
+// this is where i made bolean, remember that bolean starts with IF
     if (isToasted === true) {
     madeSandwich =  ` Ordered ${name} on ${bread} toasted`
 
     }
-    return madeSandwich
+  return(madeSandwich)
 }
 var mySandwich = sandwich("wheat", "tuna", true)
 console.log(mySandwich)
+
